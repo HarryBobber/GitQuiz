@@ -1,11 +1,13 @@
-public class Implementation implements Summation {
+public class Implementation {
 
-	public int sum(int first, int last) {
-		int finalSum = 0;
-		for(int i = first; i <= last; i ++) {
-			finalSum += i;
-		}
-		return finalSum;
+	public static void main(String[] args){
+		Summation summation = (int first, int last) ->
+		{
+			int finalSum = 0;
+			for(int i = first; i <= last; i ++) {
+				finalSum += i;
+			}
+			return finalSum;
+		};
 	}
-
 }
