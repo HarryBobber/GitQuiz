@@ -9,5 +9,9 @@ public class Implementation {
 			}
 			return finalSum;
 		};
+
+		int first = Integer.parseInt(args[0]);
+		int last = Integer.parseInt(args[args.length-1]);
+		System.out.print(summation.sum(first, last));
 	}
 }
