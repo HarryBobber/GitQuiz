@@ -1,4 +1,5 @@
 public class Implementation implements Summation {
+
 	public int sum(int first, int last) {
 		int finalSum = 0;
 		for(int i = first; i <= last; i ++) {
@@ -6,4 +7,5 @@ public class Implementation implements Summation {
 		}
 		return finalSum;
 	}
+
 }
